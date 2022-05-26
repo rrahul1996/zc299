@@ -1,0 +1,405 @@
+/*
+.header_width {
+    height: 80px;
+    background-color: #ce0505;
+}    
+.Ellipse-2 {
+    width: 52px;
+    height: 52px;
+    margin-top: 13px;
+    margin-left: 22px;
+    border-radius: 30px;
+    padding: 1px 10px 4px;
+    background-color: #fff;
+    display: inline-block;
+}
+.login-group {
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.Ellipse-2 .left {
+    width: 32px;
+    height: 47px;
+    margin-left: 7px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: left;
+    color: #eb2929;
+    position: absolute;
+}
+
+.Login {
+    width: 43px;
+    height: 23px;
+    margin-right: 7px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #fff;
+    display: inline-block;
+}
+
+.Rectangle-17 {
+    border-radius:10px;
+    border: solid 1px #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+*/
+.breakfast{
+    width: 512px;
+    height: 51px;
+    margin: 37px 25px 27px 113px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.Rectangle {
+    width: 280px;
+    
+    margin: 0px 45px 10px 113px;
+    padding: 17px 25px 31px 26px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+}
+
+.Filters {
+    width: 55px;
+    height: 25px;
+    margin: 0 154px 10px 0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #072157;
+    display: inline-block;
+}
+.icon {
+    display: inline-block;
+    float: right;
+    display: none;
+}
+.collapse:not(.show) {
+    display: block; 
+}
+.Location {
+    width: 120px;
+    height: 20px;
+    margin: 18px 102px 11px 1px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.Rectangle2 {
+    width: 208px;
+    height: 38px;
+    margin: 6px 0 18px 1px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+}
+.margin-top{
+    margin-top: 10px;
+}
+.cuisine {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 15px;
+}
+.Checkbox1 {
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Poppins;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-left: 5px;
+}
+
+.Item {
+    width: 794px;
+    height: 280px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+.small-item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.rest-name {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.rest-location {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.rest-address {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+.Bakery {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+.page-number {
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 30%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.no-records {
+    font-size: 30px;
+    font-family: cursive;
+    color: red;
+    text-align: center;
+}
+table {
+    width: 320px;
+}
+th {
+    font-weight: 100;
+}
+.big {
+    display: inline-block;
+    width: 68%;
+}
+.verticle {
+    vertical-align: top;
+    margin-left: 45px;
+}
+.small{
+    display: inline-block;
+    width: 28%;
+}
+.small-item {
+    display: inline-block;
+    width: 20%;
+}
+.big-item {
+    display: inline-block;
+    width: 68%;
+    margin-left: 12px;
+    vertical-align: top;
+    padding-top: 13px;
+}
+.margin-left {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.pagination {
+    display: inline-block;
+    margin-left: 275px;
+    margin-top: 10px;
+}
+.pagination a {
+    color: gray;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: solid 1px gray;
+    border-radius: 8px;
+    margin: 2px;
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+    .filterClass{
+        display: block !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .breakfast {
+        width: 512px;
+        height: 51px;
+        margin: 37px 25px 18px 20px;
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+    }
+    .Rectangle {
+        width: 470px;
+        padding: 17px 25px 31px 26px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+        margin-left: 20px;
+        position: relative;
+        resize:both;
+    }
+    .filterhead {
+        height: 20px;
+    }
+    .collapse:not(.show) {
+        display: none; 
+    }
+    .Item {
+        width: 600px;
+        height: 280px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        margin-bottom: 15px;
+        float: left;
+    }
+    .icon {
+        display: inline-block;
+        float: right;
+        display: block;
+    }
+    .filter-options {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        padding-left: 30px;
+        margin-bottom: 10px;
+        min-width: 450px;
+    }
+    .big {
+        display: block;
+        width: 68%;
+        margin-left: 20px;
+    }
+    .small {
+        display: block;
+        width: 28%;
+    }
+    .big-item {
+        display: inline-block;
+        width: 60%;
+    }
+    .small-item {
+        display: inline-block;
+        width: 18%;
+        margin-top: 20px;
+    }
+    .rest-name {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-location {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+        padding-left: 35px;
+    }
+    .rest-address {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+        padding-left: 35px;
+    }
+    .pagination {
+        display: inline-block;
+        margin-top: 25px;
+        width: 380px;
+        margin-left: 182px;
+    }
+    /* .filterClass{
+        display: none ;
+    } */
+}
+

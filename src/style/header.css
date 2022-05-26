@@ -1,0 +1,81 @@
+.header {
+    height: 50px;
+    background-color: red;
+}
+.header-logo {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1%;
+    font-family: Poppins;
+    font-weight: bold;
+    display: inline-block;
+}
+.user-account {
+    float: right;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.login {
+    display: inline-block;
+}
+.signup {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 15px;
+margin-left: 10px;
+}
+.pay {
+    background: rgb(255, 255, 255);
+    padding: 3px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+@media only screen and (mix-width: 600px) {
+
+    .header {
+        height: 50px;
+        background-color: red;
+    }
+    .header-logo {
+        text-align: center;
+        font-size: 35px;
+        color: red;
+        background: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 1%;
+        font-family: Poppins;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .user-account {
+        float: right;
+        color: white;
+        font-weight: bold;
+       
+    }
+    .login {
+        display: inline-block;
+    }
+    .signup {
+        display: inline-block;
+        border: 1px solid white;
+        padding: 5px;
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+
+}
