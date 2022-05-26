@@ -32,7 +32,7 @@ class Filter extends React.Component{
 
         axios({
             method: 'POST',
-            url: 'http://localhost:8555/filter',
+            url: 'https://gentle-ridge-33068.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data: filterObj
         })
@@ -48,7 +48,7 @@ class Filter extends React.Component{
 
         axios({
             method: 'GET',
-            url: 'http://localhost:8555/locations',
+            url: 'https://gentle-ridge-33068.herokuapp.com/locations',
             headers: {'Content-Type' : 'application/json'}
         })
         .then(response => {
@@ -71,7 +71,7 @@ class Filter extends React.Component{
         }
         axios({
             method: 'POST',
-            url: 'http://localhost:8555/filter',
+            url: 'https://gentle-ridge-33068.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data: filterObj
         })
@@ -96,7 +96,7 @@ class Filter extends React.Component{
         }
         axios({
             method: 'POST',
-            url: 'http://localhost:8555/filter',
+            url: 'https://gentle-ridge-33068.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data: filterObj
         })
@@ -121,7 +121,7 @@ class Filter extends React.Component{
         }
         axios({
             method: 'POST',
-            url: 'http://localhost:8555/filter',
+            url: 'https://gentle-ridge-33068.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data: filterObj
         })
@@ -155,7 +155,7 @@ class Filter extends React.Component{
         }
         axios({
             method: 'POST',
-            url: 'http://localhost:8555/filter',
+            url: 'https://gentle-ridge-33068.herokuapp.com/filter',
             headers: {'Content-Type' : 'application/json'},
             data: filterObj
         })
@@ -181,7 +181,7 @@ class Filter extends React.Component{
 
         axios({
             method: 'POST',
-            url: 'http://localhost:8555/filter',
+            url: 'https://gentle-ridge-33068.herokuapp.com/filter',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
         })

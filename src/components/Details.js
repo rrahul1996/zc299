@@ -43,7 +43,7 @@ class Details extends React.Component {
 
       axios({
         method: 'GET',
-        url: `http://localhost:8555/restaurant/${restaurant}`,
+        url: `https://gentle-ridge-33068.herokuapp.com/restaurant/${restaurant}`,
         headers: {'Content-Type' : 'application/json'}
     })
     .then(response => {
@@ -60,7 +60,7 @@ class Details extends React.Component {
         const { restaurantId } = this.state;
         axios({
             method: 'GET',
-            url: `http://localhost:8555/menuitems/${restaurantId}`,
+            url: `https://gentle-ridge-33068.herokuapp.com/menuitems/${restaurantId}`,
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {
@@ -132,7 +132,7 @@ class Details extends React.Component {
     }
 
     getData = (data) => {
-        return fetch(`http://localhost:8555/payment`, {
+        return fetch(`https://gentle-ridge-33068.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",

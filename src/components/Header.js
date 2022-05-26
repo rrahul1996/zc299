@@ -78,7 +78,7 @@ class Header extends React.Component {
 
         axios({
             method: "POST",
-            url: "http://localhost:8555/usersignup",
+            url: "https://gentle-ridge-33068.herokuapp.com/usersignup",
             headers: { "Content-Type": "Application/json" },
             data: userObj,
           })
@@ -106,7 +106,7 @@ class Header extends React.Component {
     
           axios({
             method: "POST",
-            url: "http://localhost:8555/userlogin",
+            url: "https://gentle-ridge-33068.herokuapp.com/userlogin",
             headers: { "Content-Type": "Application/json" },
             data: userObj,
           })
