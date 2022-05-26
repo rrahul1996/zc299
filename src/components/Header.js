@@ -87,8 +87,7 @@ class Header extends React.Component {
             })
             .catch(err => {console.log(err)})
 
-          this.setState({ accountModalIsOpen: false, user: undefined, 
-            pwd: undefined, fn: undefined, ln: undefined, userLoggedIn: true, msgModalIsOpen: true
+          this.setState({ accountModalIsOpen: false, userLoggedIn: true, msgModalIsOpen: true
           });
     }
 
